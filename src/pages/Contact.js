@@ -3,33 +3,33 @@ import React from 'react'
 const Contact = () => {
   return (
    <>
-   <div id="contact" class="contact ">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2><strong class="yellow">Contact us</strong><br/>Request a call back</h2>
+   <div id="contact" className="contact ">
+         <div className="container">
+            <div className="row">
+               <div className="col-md-12">
+                  <div className="titlepage">
+                     <h2><strong className="yellow">Contact us</strong><br/>Request a call back</h2>
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-md-8 offset-md-2">
-                  <form id="post_form" class="contact_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <input class="contact_control" placeholder=" Name" type="type" name="Name"/> 
+            <div className="row">
+               <div className="col-md-8 offset-md-2">
+                  <form id="post_form" className="contact_form">
+                     <div className="row">
+                        <div className="col-md-12 ">
+                           <input className="contact_control" placeholder=" Name" type="type" name="Name"/> 
                         </div>
-                        <div class="col-md-12">
-                           <input class="contact_control" placeholder="Email" type="type" name="Email"/> 
+                        <div className="col-md-12">
+                           <input className="contact_control" placeholder="Email" type="type" name="Email"/> 
                         </div>
-                        <div class="col-md-12">
-                           <input class="contact_control" placeholder="Phone Number " type="type" name="Phone Number "/>                          
+                        <div className="col-md-12">
+                           <input className="contact_control" placeholder="Phone Number " type="type" name="Phone Number "/>                          
                         </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
+                        <div className="col-md-12">
+                           <textarea className="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
                         </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send</button>
+                        <div className="col-md-12">
+                           <button className="send_btn">Send</button>
                         </div>
                         </div>
                   </form>
